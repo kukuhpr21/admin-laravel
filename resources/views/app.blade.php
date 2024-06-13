@@ -9,10 +9,10 @@
     </head>
     <body class="bg-white">
         <div class="flex flex-row h-screen">
-            <x-sidebar/>
+            <x-sidebars.sidebar/>
 
             {{-- main --}}
-            <div class="flex flex-col w-full bg-green-400">
+            <div class="flex flex-col w-full">
                 <x-navbar/>
             </div>
             {{-- main --}}
