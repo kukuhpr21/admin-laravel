@@ -24,7 +24,7 @@
         </ul>
     </div>
 </div> --}}
-<aside id="sidebar-multi-level-sidebar" class="top-0 left-0 z-40 w-80 h-screen transition-transform -translate-x-full sm:translate-x-0" aria-label="Sidebar">
+<aside id="sidebar" class="fixed top-0 left-0 z-40 w-80 h-screen transition-transform -translate-x-full sm:translate-x-0" aria-label="Sidebar">
     <div class="h-full px-3 py-4 overflow-y-auto bg-white drop-shadow-xl">
         <x-sidebars.header-sidebar logo-header-sidebar="" description-header-sidebar="Dashboard"/>
         <ul class="space-y-2 font-medium pt-14">
