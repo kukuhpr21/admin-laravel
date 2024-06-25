@@ -4,18 +4,17 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>@yield('title')</title>
         @vite(['resources/css/app.css','resources/js/app.js'])
     </head>
-    <body class="bg-white">
-        <div class="flex flex-row h-screen">
-            <x-sidebars.sidebar/>
+    <body>
+        <x-sidebars.sidebar/>
+        <x-navbar/>
 
-            {{-- main --}}
-            <div class="flex flex-col w-full">
-                <x-navbar/>
+        <div class="p-4 sm:ml-64">
+            <div class="p-4 bg-slate-100 rounded-lg mt-20">
+                dashboard
             </div>
-            {{-- main --}}
         </div>
     </body>
 </html>
